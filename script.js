@@ -5,7 +5,7 @@ let productList = []   // Lista de produtos adicionados
 
 // Finalizar pedido e enviar pelo WhatsApp
 function finalizar() {
-    const number = '5562993323848' // Número para onde será enviado o pedido
+    const number = '5562123456789' // Número para onde será enviado o pedido
     let msg = 'Finalizei! Segue abaixo meu pedido: \n'
 
     // Monta lista dos produtos no formato desejado

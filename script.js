@@ -30,7 +30,7 @@ function carrinho(element) {
 
     // Pega informações do produto
     const product = elementFather.querySelector('h3').textContent
-    const color = elementFather.querySelector('#select').value
+    const color = elementFather.querySelector('.select-color').value
     const amount = elementFather.querySelector('input').value
     let preco = elementFather.querySelector('p').textContent
 
